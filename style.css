@@ -4,3 +4,52 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+.page-container{
+    display: flex;
+    justify-content: center;
+}
+.todo-container{
+    width: 300px;
+    min-height: 500px;
+    background: palevioletred;
+    border-radius: 10px;
+    margin: 2em;
+    padding: 10px;
+    box-shadow: 4px 4px 7px red,  -4px -4px 7px red;
+}
+.todo-commands{
+    text-align: center;
+}
+.todo-input{
+    border-radius: 5px;
+    border: none;
+    width:170px;
+    height:20px;
+}
+.things-to-buy{
+    text-align: center;
+     margin-top: 1em;
+    color: aliceblue;
+    animation: spin 3s alternate-reverse infinite;
+}
+@keyframes spin {
+    from{transform: translateY(5px);
+    color: aquamarine;}
+    to{transform: translateY(0);
+    color: red;}}
+.app{
+    font-size:1.5em;
+    font-weight: 400;
+    color: aqua;
+    margin-bottom: 1em;
+    text-align: center;}
+    
+
+
+.todo-contents{
+    text-align: start;
+    padding: 2rem  3rem; 
+    font-size: 1.5rem;
+    color: antiquewhite;
+    
+}
